@@ -1,0 +1,45 @@
+.App{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Sec{
+  height: auto;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 40px black;
+  opacity: 0.6;
+}
+
+input{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+button{
+  padding: 10px;
+  width: 100px;
+  background: slategray;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+
+
+p{
+  margin: 10px;
+  text-align:center;
+  color:black;
+
+}
+

@@ -44,7 +44,7 @@ const App: React.FC = () => {
         <br />
         <button onClick={handleClick}>Search</button>
         {weather && typeof weather.main !== "undefined" ? (
-          <div>
+          <div className="Container">
             <p>Name: {weather.name}</p>
             <p>Temp: {weather.main.temp}</p>
             <p>Cloud/Rain: {weather.weather[0].main}</p>

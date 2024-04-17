@@ -1,0 +1,25 @@
+.Home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Card{
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background: cornflowerblue;
+    color: white;
+    font-weight: 900;
+    border: none;
+}

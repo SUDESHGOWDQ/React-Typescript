@@ -1,0 +1,15 @@
+.nav{
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+
+.navart{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
